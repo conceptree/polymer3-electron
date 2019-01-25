@@ -1,0 +1,30 @@
+{
+  "name": "polymer3-electron",
+  "version": "1.0.0",
+  "description": "Simple demo project for a Electron Application based on polymer 2",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conceptree/polymer-electron.git"
+  },
+  "keywords": [
+    "polymer",
+    "electron"
+  ],
+  "author": "Nuno Rodrigues",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conceptree/polymer-electron/issues"
+  },
+  "homepage": "https://github.com/conceptree/polymer-electron#readme",
+  "devDependencies": {
+    "electron": "^4.0.2",
+    "electron-builder": "^20.38.5",
+    "electron-packager": "^13.0.1"
+  }
+}
